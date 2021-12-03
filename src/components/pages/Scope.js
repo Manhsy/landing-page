@@ -12,7 +12,7 @@ export default function Scope() {
           comprehensive approach cutting across wellness and healthcare across
           different domains - Assessment, behavioral health, activity,
           nutrition, screening, access to care, will help create a novel model
-          for employee health.
+          for employee health..
         </Description>
       </Container>
     </div>
