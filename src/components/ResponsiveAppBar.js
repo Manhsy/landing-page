@@ -36,9 +36,8 @@ const ResponsiveAppBar = () => {
     <AppBar position="sticky">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Typography
+          <Button
             variant="h6"
-            noWrap
             component="div"
             sx={{
               mr: 2,
@@ -46,22 +45,25 @@ const ResponsiveAppBar = () => {
               justifySelf: "center",
             }}
           >
-            Final Iteration
-          </Typography>
-          <Typography
+            <Link to="about us" smooth={true}>
+              Final Iteration
+            </Link>
+          </Button>
+          <Button
             variant="h6"
             noWrap
             component="div"
             sx={{
-              flexGrow: 1,
               display: {
                 xs: "flex",
                 md: "none",
               },
             }}
           >
-            Final Iteration
-          </Typography>
+            <Link to="about us" smooth={true}>
+              Final Iteration
+            </Link>
+          </Button>
           <TopLayout />
           <Box
             sx={{

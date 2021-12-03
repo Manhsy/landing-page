@@ -2,9 +2,11 @@ import * as React from "react";
 import Container from "@mui/material/Container";
 import { container, Title, Description } from "../../Styling";
 import Divider from "@mui/material/Divider";
-export default function Solution() {
+export default function Highlight(props) {
+  const { classes } = props;
   return (
     <div id="highlights" style={container}>
+      <div className={classes.toolbar} />
       <Container maxWidth="lg">
         <Divider>
           <Title>H I G H L I G H T</Title>

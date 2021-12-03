@@ -4,9 +4,11 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import { container, Learnmore, Title, Description, Name } from "../../Styling";
 
-export default function Background() {
+export default function Background(props) {
+  const { classes } = props;
   return (
     <div id="background" style={container}>
+      <div className={classes.toolbar} />
       <Container maxWidth="lg">
         <Divider>
           <Title> B A C K G R O U N D</Title>
@@ -32,6 +34,9 @@ export default function Background() {
     </div>
   );
 }
+const backgroundContainer = {
+  padding: "10vw",
+};
 const learnMoreButtonStyle = {
   borderRadius: 20,
   marginTop: "2.3vw",

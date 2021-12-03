@@ -3,9 +3,11 @@ import Container from "@mui/material/Container";
 import Profile from "../Profile";
 import { container, Title, Description } from "../../Styling";
 import Divider from "@mui/material/Divider";
-export default function AboutUs() {
+export default function AboutUs(props) {
+  const { classes } = props;
   return (
     <div id="about us" style={container}>
+      <div className={classes.toolbar} />
       <Container maxWidth="lg">
         <Divider>
           <Title align="left">F I N A L - I T E R A T I O N</Title>

@@ -8,28 +8,34 @@ import backgroundImage from "../src/assets/340434.png";
 import Highlight from "./components/pages/Highlight";
 import AboutUs from "./components/pages/AboutUs";
 import Timeline from "./components/pages/TimelinePage";
-import Divider from "@mui/material/Divider";
+import { withStyles } from "@material-ui/core/styles";
 
-function App() {
+const styles = (theme) => ({
+  toolbar: theme.mixins.toolbar,
+});
+
+function App(props) {
+  const { classes } = props;
+
   return (
     <div
       className="App"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "right",
+        backgroundPosition: "center",
         backgroundSize: "cover",
       }}
     >
       <ResponsiveAppBar />
-      <Background />
-      <Scope />
-      <Solution />
-      <Highlight />
-      <Timeline />
-      <AboutUs />
+      <Background classes={classes} />
+      <Scope classes={classes} />
+      <Solution classes={classes} />
+      <Highlight classes={classes} />
+      <Timeline classes={classes} />
+      <AboutUs classes={classes} />
     </div>
   );
 }
 
-export default App;
+export default withStyles(styles)(App);

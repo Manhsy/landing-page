@@ -7,9 +7,11 @@ import { AiOutlineDatabase } from "react-icons/ai";
 import { BsImages } from "react-icons/bs";
 import { container, Title, Description } from "../../Styling";
 import Divider from "@mui/material/Divider";
-export default function Solution() {
+export default function Solution(props) {
+  const { classes } = props;
   return (
     <div id="solution" style={container}>
+      <div className={classes.toolbar} />
       <Container maxWidth="lg">
         <Divider>
           <Title>S O L U T I O N</Title>
@@ -24,13 +26,13 @@ export default function Solution() {
         </Description>
         <Container style={iconContainer}>
           <div>
-            <IoIosPhonePortrait color="black" size="5vw" />
+            <IoIosPhonePortrait color="black" size="3vw" />
             <div style={{ width: "15vw" }}>
               <IconText>Javascript, React Native, CSS (Front-End)</IconText>
             </div>
           </div>
           <div>
-            <AiOutlineDatabase color="black" size="5vw" />
+            <AiOutlineDatabase color="black" size="3vw" />
             <div style={{ width: "15vw" }}>
               <IconText>
                 Mongodb, NoSQL, Express.js, Node.js (Back-End)
@@ -38,7 +40,7 @@ export default function Solution() {
             </div>
           </div>
           <div>
-            <BsImages color="black" size="5vw" />
+            <BsImages color="black" size="3vw" />
             <div style={{ width: "15vw" }}>
               <IconText>Unplash API (Third-party API)</IconText>
             </div>
@@ -59,7 +61,6 @@ const iconContainer = {
 const IconText = withStyles({
   root: {
     fontWeight: "bold",
-    fontSize: "1.8vw",
     color: "black",
   },
 })(Typography);

@@ -2,9 +2,13 @@ import * as React from "react";
 import Container from "@mui/material/Container";
 import { container, Title, Description } from "../../Styling";
 import Divider from "@mui/material/Divider";
-export default function Scope() {
+
+export default function Scope(props) {
+  const { classes } = props;
+
   return (
     <div id="scope" style={container}>
+      <div className={classes.toolbar} />
       <Container maxWidth="lg">
         <Divider>
           <Title>S C O P E</Title>

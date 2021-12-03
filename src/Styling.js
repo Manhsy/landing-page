@@ -3,30 +3,30 @@ import Typography from "@mui/material/Typography";
 import { withStyles } from "@material-ui/core/styles";
 
 const container = {
-  padding: "10vw",
+  paddingRight: "20vw",
+  paddingLeft: "20vw",
 };
 const Learnmore = withStyles({
   root: {
-    fontSize: "1vw",
     color: "white",
-    fontWeight: "900",
+    fontSize: "1em",
   },
 })(Typography);
 const Title = withStyles({
   root: {
     fontWeight: "bold",
-    fontSize: "2.5vw",
+    fontSize: "1.5em",
   },
 })(Typography);
 const Description = withStyles({
   root: {
-    fontSize: "2vw",
+    fontSize: "1em",
   },
 })(Typography);
 const Name = withStyles({
   root: {
-    fontSize: "2vw",
     fontWeight: "bold",
+    fontSize: "1em",
   },
 })(Typography);
 
