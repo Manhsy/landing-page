@@ -1,13 +1,16 @@
 import * as React from "react";
 import Container from "@mui/material/Container";
 import { container, Title, Description } from "../../Styling";
+import Divider from "@mui/material/Divider";
 export default function Solution() {
   return (
     <div id="highlights" style={container}>
       <Container maxWidth="lg">
-        <Title align="left">H I G H L I G H T</Title>
+        <Divider>
+          <Title>H I G H L I G H T</Title>
+        </Divider>
         <div style={{ marginTop: "1.5vw" }} />
-        <Description align="left">
+        <Description>
           Our client has a vision to create a standard model of wellness which
           hasn't been done before. A comprehensive approach cutting across
           wellness and healthcare spanning from different domains of wellness

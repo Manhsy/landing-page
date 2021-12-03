@@ -6,13 +6,16 @@ import { IoIosPhonePortrait } from "react-icons/io";
 import { AiOutlineDatabase } from "react-icons/ai";
 import { BsImages } from "react-icons/bs";
 import { container, Title, Description } from "../../Styling";
+import Divider from "@mui/material/Divider";
 export default function Solution() {
   return (
     <div id="solution" style={container}>
       <Container maxWidth="lg">
-        <Title align="left">S O L U T I O N</Title>
+        <Divider>
+          <Title>S O L U T I O N</Title>
+        </Divider>
         <div style={{ marginTop: "1.5vw" }} />
-        <Description align="left">
+        <Description>
           Create an application that employees can use to track different
           aspects of wellness. Give employees ideas to “unplug” from their work
           to reduce burnout and stress. Pipeline data from fitness apps and

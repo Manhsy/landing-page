@@ -7,7 +7,8 @@ import Solution from "./components/pages/Solution";
 import backgroundImage from "../src/assets/340434.png";
 import Highlight from "./components/pages/Highlight";
 import AboutUs from "./components/pages/AboutUs";
-import Timeline from "./components/pages/Timeline";
+import Timeline from "./components/pages/TimelinePage";
+import Divider from "@mui/material/Divider";
 
 function App() {
   return (

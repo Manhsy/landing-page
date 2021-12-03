@@ -2,13 +2,16 @@ import * as React from "react";
 import Container from "@mui/material/Container";
 import Profile from "../Profile";
 import { container, Title, Description } from "../../Styling";
+import Divider from "@mui/material/Divider";
 export default function AboutUs() {
   return (
     <div id="about us" style={container}>
       <Container maxWidth="lg">
-        <Title align="left">F I N A L - I T E R A T I O N</Title>
+        <Divider>
+          <Title align="left">F I N A L - I T E R A T I O N</Title>
+        </Divider>
         <div style={{ marginTop: "1.5vw" }} />
-        <Description align="left">
+        <Description>
           Hello, we are Computer Science students from California State
           University, Sacramento, who shares the same passion for technology and
           innovation.
