@@ -10,10 +10,10 @@ export default function AboutUs(props) {
       <div className={classes.toolbar} />
       <Container maxWidth="lg">
         <Divider>
-          <Title align="left">F I N A L - I T E R A T I O N</Title>
+          <Title variant="h5">F I N A L - I T E R A T I O N</Title>
         </Divider>
         <div style={{ marginTop: "1.5vw" }} />
-        <Description>
+        <Description variant="body1">
           Hello, we are Computer Science students from California State
           University, Sacramento, who shares the same passion for technology and
           innovation.

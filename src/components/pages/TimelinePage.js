@@ -12,7 +12,7 @@ export default function TimelinePage(props) {
       <div className={classes.toolbar} />
       <Container maxWidth="lg">
         <Divider>
-          <Title align="left">T I M E L I N E</Title>
+          <Title variant="h5">T I M E L I N E</Title>
         </Divider>
         <div style={{ marginTop: "1.5vw" }} />
         <Timeline position="alternate">

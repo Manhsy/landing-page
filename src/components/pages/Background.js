@@ -11,13 +11,17 @@ export default function Background(props) {
       <div className={classes.toolbar} />
       <Container maxWidth="lg">
         <Divider>
-          <Title> B A C K G R O U N D</Title>
+          <Title variant="h5"> B A C K G R O U N D</Title>
         </Divider>
         <div style={{ marginTop: "1.5vw" }} />
-        <Name>Client's names: Ashish Atreja (M.D), Keisuke Nakagawa (M.D)</Name>
-        <Name>Client's business: UC Davis Health Medical Center</Name>
+        <Name variant="h6">
+          Client's names: Ashish Atreja (M.D), Keisuke Nakagawa (M.D)
+        </Name>
+        <Name variant="h6">
+          Client's business: UC Davis Health Medical Center
+        </Name>
         <div style={{ marginTop: "1vw" }} />
-        <Description>
+        <Description variant="body1">
           UC Davis Health (UCDH) is improving lives and transforming health care
           by providing excellent patient care, conducting groundbreaking
           research, fostering innovative, interprofessional education, and
@@ -45,4 +49,5 @@ const learnMoreButtonStyle = {
   paddingLeft: "2vw",
   width: "11vw",
   paddingRight: "2vw",
+  textTransform: "capitalize",
 };

@@ -9,10 +9,10 @@ export default function Highlight(props) {
       <div className={classes.toolbar} />
       <Container maxWidth="lg">
         <Divider>
-          <Title>H I G H L I G H T</Title>
+          <Title variant="h5">H I G H L I G H T</Title>
         </Divider>
         <div style={{ marginTop: "1.5vw" }} />
-        <Description>
+        <Description variant="body1">
           Our client has a vision to create a standard model of wellness which
           hasn't been done before. A comprehensive approach cutting across
           wellness and healthcare spanning from different domains of wellness

@@ -19,7 +19,7 @@ export default function Ti({ sprintNum, description }) {
         <Typography variant="h6" component="span">
           {`Sprint ${sprintNum}`}
         </Typography>
-        <Typography>{description}</Typography>
+        <Typography variant="body1">{description}</Typography>
       </TimelineContent>
     </TimelineItem>
   );

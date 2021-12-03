@@ -11,10 +11,10 @@ export default function Scope(props) {
       <div className={classes.toolbar} />
       <Container maxWidth="lg">
         <Divider>
-          <Title>S C O P E</Title>
+          <Title variant="h5">S C O P E</Title>
         </Divider>
         <div style={{ marginTop: "1.5vw" }} />
-        <Description>
+        <Description variant="body1">
           Creating a standard model for employee wellness. A holistic and more
           comprehensive approach cutting across wellness and healthcare across
           different domains - Assessment, behavioral health, activity,

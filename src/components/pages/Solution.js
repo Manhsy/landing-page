@@ -14,10 +14,10 @@ export default function Solution(props) {
       <div className={classes.toolbar} />
       <Container maxWidth="lg">
         <Divider>
-          <Title>S O L U T I O N</Title>
+          <Title variant="h5">S O L U T I O N</Title>
         </Divider>
         <div style={{ marginTop: "1.5vw" }} />
-        <Description>
+        <Description variant="body1">
           Create an application that employees can use to track different
           aspects of wellness. Give employees ideas to “unplug” from their work
           to reduce burnout and stress. Pipeline data from fitness apps and
@@ -28,13 +28,15 @@ export default function Solution(props) {
           <div>
             <IoIosPhonePortrait color="black" size="3vw" />
             <div style={{ width: "15vw" }}>
-              <IconText>Javascript, React Native, CSS (Front-End)</IconText>
+              <IconText variant="caption">
+                Javascript, React Native, CSS (Front-End)
+              </IconText>
             </div>
           </div>
           <div>
             <AiOutlineDatabase color="black" size="3vw" />
             <div style={{ width: "15vw" }}>
-              <IconText>
+              <IconText variant="caption">
                 Mongodb, NoSQL, Express.js, Node.js (Back-End)
               </IconText>
             </div>
@@ -42,7 +44,9 @@ export default function Solution(props) {
           <div>
             <BsImages color="black" size="3vw" />
             <div style={{ width: "15vw" }}>
-              <IconText>Unplash API (Third-party API)</IconText>
+              <IconText variant="caption">
+                Unplash API (Third-party API)
+              </IconText>
             </div>
           </div>
         </Container>
