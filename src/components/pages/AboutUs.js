@@ -33,7 +33,7 @@ export default function AboutUs(props) {
             <Profile
               girl={false}
               name="Daniel O."
-              position="Backend"
+              position="Fullstack"
               button="https://www.linkedin.com/in/olsend/"
             />
             <Profile
