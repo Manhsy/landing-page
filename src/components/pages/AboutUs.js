@@ -29,6 +29,7 @@ export default function AboutUs(props) {
               position="Frontend"
               button="https://www.linkedin.com/in/mtsss"
             />
+
             <Profile
               girl={false}
               name="Daniel O."
