@@ -27,7 +27,7 @@ function App(props) {
         backgroundSize: "cover",
       }}
     >
-      <ResponsiveAppBar />
+      <ResponsiveAppBar classes={classes} />
       <Background classes={classes} />
       <Scope classes={classes} />
       <Solution classes={classes} />

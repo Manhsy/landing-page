@@ -12,8 +12,8 @@ import TopLayout from "./TopLayout";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@mui/material/Button";
 import { Link } from "react-scroll";
-
-const ResponsiveAppBar = () => {
+import logo from "../assets/logo.png";
+const ResponsiveAppBar = (props) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -45,8 +45,11 @@ const ResponsiveAppBar = () => {
               justifySelf: "center",
             }}
           >
-            <Link to="about us" smooth={true}>
-              Final Iteration
+            <Link to="background" smooth={true}>
+              <div class="TopBarLayoutIcon">
+                <img src={logo} height="40vw" />
+                <Typography>Final Iteration</Typography>
+              </div>
             </Link>
           </Button>
           <Button
@@ -60,8 +63,11 @@ const ResponsiveAppBar = () => {
               },
             }}
           >
-            <Link to="about us" smooth={true}>
-              Final Iteration
+            <Link to="background" smooth={true}>
+              <div class="TopBarLayoutIcon">
+                <img src={logo} height="40vw" />
+                <Typography>Final Iteration</Typography>
+              </div>
             </Link>
           </Button>
           <TopLayout />
