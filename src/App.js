@@ -9,6 +9,8 @@ import Highlight from "./components/pages/Highlight";
 import AboutUs from "./components/pages/AboutUs";
 import Timeline from "./components/pages/TimelinePage";
 import { withStyles } from "@material-ui/core/styles";
+import Gallery from "./components/Gallery";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const styles = (theme) => ({
   toolbar: theme.mixins.toolbar,
@@ -28,11 +30,14 @@ function App(props) {
       }}
     >
       <ResponsiveAppBar classes={classes} />
+      {/* <Gallery /> */}
       <Background classes={classes} />
       <Scope classes={classes} />
       <Solution classes={classes} />
       <Highlight classes={classes} />
+
       <Timeline classes={classes} />
+
       <AboutUs classes={classes} />
     </div>
   );
