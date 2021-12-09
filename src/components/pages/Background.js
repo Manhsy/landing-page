@@ -41,9 +41,7 @@ export default function Background(props) {
     </ScrollAnimation>
   );
 }
-const backgroundContainer = {
-  padding: "10vw",
-};
+
 const learnMoreButtonStyle = {
   borderRadius: 20,
   marginTop: "2.3vw",

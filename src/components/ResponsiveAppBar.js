@@ -45,7 +45,7 @@ const ResponsiveAppBar = (props) => {
               justifySelf: "center",
             }}
           >
-            <Link to="background" smooth={true}>
+            <Link to="prototypes" smooth={true}>
               <div class="TopBarLayoutIcon">
                 <img src={logo} height="40vw" />
                 <Typography>Final Iteration</Typography>

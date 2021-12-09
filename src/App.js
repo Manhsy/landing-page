@@ -6,11 +6,10 @@ import Scope from "./components/pages/Scope";
 import Solution from "./components/pages/Solution";
 import backgroundImage from "../src/assets/340434.png";
 import Highlight from "./components/pages/Highlight";
+import PrototypeDemo from "./components/pages/PrototypeDemo";
 import AboutUs from "./components/pages/AboutUs";
 import Timeline from "./components/pages/TimelinePage";
 import { withStyles } from "@material-ui/core/styles";
-import Gallery from "./components/Gallery";
-import ScrollAnimation from "react-animate-on-scroll";
 
 const styles = (theme) => ({
   toolbar: theme.mixins.toolbar,
@@ -30,14 +29,12 @@ function App(props) {
       }}
     >
       <ResponsiveAppBar classes={classes} />
-      {/* <Gallery /> */}
+      <PrototypeDemo classes={classes} />
       <Background classes={classes} />
       <Scope classes={classes} />
       <Solution classes={classes} />
       <Highlight classes={classes} />
-
       <Timeline classes={classes} />
-
       <AboutUs classes={classes} />
     </div>
   );
