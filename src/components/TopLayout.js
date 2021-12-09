@@ -12,6 +12,7 @@ import { GiTargeting, GiProgression } from "react-icons/gi";
 import { RiLightbulbFlashLine } from "react-icons/ri";
 import { MdHighlightAlt } from "react-icons/md";
 import { RiTeamLine } from "react-icons/ri";
+import { MdAutoFixHigh } from "react-icons/md";
 
 function TopLayout() {
   const [value, setValue] = React.useState(0);
@@ -39,6 +40,15 @@ function TopLayout() {
           handleChange(value);
         }}
       >
+        <Tab
+          value="prototypes"
+          label={
+            <div class="TopBarLayoutIcon">
+              <MdAutoFixHigh color="white" />
+              <TabLabel> Prototype & Demo</TabLabel>
+            </div>
+          }
+        />
         <Tab
           value="background"
           label={

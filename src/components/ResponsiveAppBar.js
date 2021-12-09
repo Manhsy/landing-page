@@ -107,6 +107,11 @@ const ResponsiveAppBar = (props) => {
               }}
             >
               <MenuItem onClick={handleCloseNavMenu}>
+                <Link to="prototypes" smooth={true}>
+                  Prototype & Demo
+                </Link>
+              </MenuItem>
+              <MenuItem onClick={handleCloseNavMenu}>
                 <Link to="background" smooth={true}>
                   Background
                 </Link>
