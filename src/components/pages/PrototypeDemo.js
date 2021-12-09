@@ -29,7 +29,7 @@ export default function PrototypeDemo(props) {
             <Card
               name="High fildelity prototype"
               picture={figma}
-              button="https://www.figma.com/proto/LvmcnwE2ztBUejdLHJMobj/Wellness-Together?node-id=337%3A42003&scaling=min-zoom&page-id=337%3A34986&starting-point-node-id=337%3A40508"
+              button="https://www.figma.com/proto/LvmcnwE2ztBUejdLHJMobj/Wellness-Together?node-id=337%3A40508&scaling=min-zoom&page-id=337%3A34986&starting-point-node-id=337%3A40508"
             />
             <Card
               name="Application Demo"
